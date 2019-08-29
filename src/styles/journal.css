@@ -1,0 +1,31 @@
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.short {
+    width: 3em;
+}
+
+form {
+width: 50%;
+}
+
+#container {
+    display: flex;
+    min-height: 1500px;
+  }
+  
+  #audrey {
+    background-color: purple;
+    color: snow;
+    min-height: 100px;
+    width: 150px;
+    position: fixed;
+  }
