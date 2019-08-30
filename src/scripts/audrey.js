@@ -4,7 +4,7 @@
 
 
 
-const audrey = document.getElementById("audrey")
+const audrey = document.getElementById("audrey");
 
 /*
     Add an event listener to the `document` object to listen
@@ -31,8 +31,10 @@ document.addEventListener("scroll", function () {
         `window.scrollY`. No lower than 100px, though.
     */
    if (window.scrollY >= 100) {
+       
     console.log(Math.round(window.scrollY));
-   audrey.style.height = Math.round(10);
+
+   audrey.style.height = Math.round(window.scrollY/4);
    audrey.height = 10;
    } else {
     audrey.style.height = 100;
